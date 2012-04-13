@@ -1,12 +1,12 @@
-# revision 16624
+# revision 25880
 # category Package
 # catalog-ctan /macros/latex/contrib/marginnote
-# catalog-date 2010-01-07 11:41:23 +0100
+# catalog-date 2012-04-08 16:44:52 +0200
 # catalog-license lppl
-# catalog-version v1.1f
+# catalog-version v1.1i
 Name:		texlive-marginnote
-Version:	v1.1f
-Release:	2
+Version:	v1.1i
+Release:	1
 Summary:	Notes in the margin, even where \marginpar fails
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/marginnote
