@@ -51,3 +51,21 @@ made with the framed package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Fri Apr 13 2012 Paulo Andrade <pcpa@mandriva.com.br> v1.1i-1
++ Revision: 790674
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> v1.1f-2
++ Revision: 753766
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v1.1f-1
++ Revision: 718956
+- texlive-marginnote
+- texlive-marginnote
+- texlive-marginnote
+- texlive-marginnote
+
