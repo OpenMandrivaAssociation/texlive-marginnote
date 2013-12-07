@@ -6,7 +6,7 @@
 # catalog-version v1.1i
 Name:		texlive-marginnote
 Version:	v1.1i
-Release:	3
+Release:	4
 Summary:	Notes in the margin, even where \marginpar fails
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/marginnote
