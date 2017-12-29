@@ -1,12 +1,6 @@
-# revision 25880
-# category Package
-# catalog-ctan /macros/latex/contrib/marginnote
-# catalog-date 2012-04-08 16:44:52 +0200
-# catalog-license lppl
-# catalog-version v1.1i
 Name:		texlive-marginnote
-Version:	v1.1i
-Release:	9
+Version:	v1.2b
+Release:	1
 Summary:	Notes in the margin, even where \marginpar fails
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/marginnote
@@ -35,12 +29,10 @@ made with the framed package.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/marginnote/marginnote.sty
-%doc %{_texmfdistdir}/doc/latex/marginnote/marginnote.pdf
+%{_texmfdistdir}/tex/latex/marginnote
+%doc %{_texmfdistdir}/doc/latex/marginnote
 #- source
-%doc %{_texmfdistdir}/source/latex/marginnote/README
-%doc %{_texmfdistdir}/source/latex/marginnote/marginnote.dtx
-%doc %{_texmfdistdir}/source/latex/marginnote/marginnote.ins
+%doc %{_texmfdistdir}/source/latex/marginnote
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,21 +43,3 @@ made with the framed package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Fri Apr 13 2012 Paulo Andrade <pcpa@mandriva.com.br> v1.1i-1
-+ Revision: 790674
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> v1.1f-2
-+ Revision: 753766
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v1.1f-1
-+ Revision: 718956
-- texlive-marginnote
-- texlive-marginnote
-- texlive-marginnote
-- texlive-marginnote
-
