@@ -1,5 +1,5 @@
 Name:		texlive-marginnote
-Version:	1.3
+Version:	1.4a
 Release:	1
 Summary:	Notes in the margin, even where \marginpar fails
 Group:		Publishing
