@@ -1,6 +1,6 @@
 Name:		texlive-marginnote
 Version:	48383
-Release:	1
+Release:	2
 Summary:	Notes in the margin, even where \marginpar fails
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/marginnote
