@@ -3,7 +3,7 @@ Version:	68204
 Release:	1
 Summary:	Notes in the margin, even where \marginpar fails
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/marginnote
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/marginnote
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/marginnote.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/marginnote.doc.r%{version}.tar.xz
